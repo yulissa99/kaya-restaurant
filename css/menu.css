@@ -10,7 +10,6 @@ nav {
     display: block;
 }
 
-/* By Dominik Biedebach @domobch */
 nav ul {
     list-style: none;
     text-align: center;
@@ -37,7 +36,7 @@ nav ul li a:hover {
     color: #555;
 }
 
-/* stroke */
+/* subrayado */
 nav.stroke ul li a,
 nav.fill ul li a {
     position: relative;
@@ -62,7 +61,6 @@ nav.stroke ul li a:hover:after {
 nav.fill ul li a {
     transition: all 2s;
 }
-/* By Dominik Biedebach @domobch */
 
 nav.fill ul li a:after {
     text-align: left;
