@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: white;
+}
+
+#logo-img{
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.column {
+    float: right;
+    width: 50%;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#about-img{
+    float: right;
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    margin-right: 75px;
+}
+
+.column-text-about{
+    width: 40%;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+#titles{
+    font-family: "Lovea";
+    font-size: 60px;
+    padding-left: 120px;
+    color: sienna;
+}
+
+#about-subtitle{
+    text-align: center;
+}
+
+#menu-title{
+    font-family: "Lovea";
+    font-size: 60px;
+    color: sienna;
+    text-align: center;
+    width: 100%;
+}
+
+.section-about{
+    padding: 5.5em;
+}
+.food-menu{
+    padding: 7em;
+}
+.grid-menu-section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.menu-grid{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-grid:after{
+    clear: both;
+}
+
+.menu-grid:after, .menu-box:before{
+    content: '';
+    display: table;
+}
+
+.menu-grid li{
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
+    -moz-transition:  0.3s ease-in-out,
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+    transform 0.3s ease-in-out ;
+}
+
+.menu-box:hover{
+    transform: scale(1.05);
+}
+
+.img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(../img/kaya-food1.jpg);
+}
+.img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(../img/kaya-food2.jpg);
+}
+.img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(../img/kaya-food3.jpg);
+}
+.img4{
+    background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), /* bottom, image */
+    url(../img/kaya-food4.jpg);
+}
+
+.grid-info{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.grid-info h3{
+    font-family: "Pacifico";
+    font-weight: 200;
+    color: #fff;
+    font-size: 42px;
+    margin: 0 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#alm{
+    padding: 120px 0 0 30px;
+}
+
+#ga{
+    padding: 90px 0 0 0;
+}
+
+#per{
+    padding: 120px 0 0 0;
+}
+
+#des{
+    padding: 120px 0 0 60px;
+}
+
+#gallery-title{
+    font-family: "Lovea";
+    font-size: 60px;
+    color: sienna;
+    text-align: center;
+    width: 100%;
+}
+
